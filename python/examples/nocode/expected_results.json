@@ -1,0 +1,14 @@
+{
+  "allPassed": false,
+  "testResults": {
+    "1": {
+      "call": "self.assertEqual(2,2)",
+      "success": true
+    },
+    "2": {
+      "call": "self.assertEqual(1,2)",
+      "success": false,
+      "falures": "(<test_runner.TestSequense testMethod=test_self.assertEqual(1,2)>, 'Traceback (most recent call last):\\n  File \"/var/task/test_runner.py\", line 30, in test\\n    eval(theAssert)\\n  File \"<string>\", line 1, in <module>\\nAssertionError: 1 != 2\\n')"
+    }
+  }
+}

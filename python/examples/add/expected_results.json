@@ -1,0 +1,23 @@
+{
+  "allPassed": false,
+  "testResults": {
+    "1": {
+      "call": "self.assertEqual(2,2)",
+      "success": true
+    },
+    "2": {
+      "call": "self.assertEqual(sum(1,2),3)",
+      "success": true
+    },
+    "3": {
+      "call": "self.assertEqual(1,2)",
+      "success": false,
+      "falures": "(<test_runner.TestSequense testMethod=test_self.assertEqual(1,2)>, 'Traceback (most recent call last):\\n  File \"/var/task/test_runner.py\", line 30, in test\\n    eval(theAssert)\\n  File \"<string>\", line 1, in <module>\\nAssertionError: 1 != 2\\n')"
+    },
+    "4": {
+      "errors": "(<test_runner.TestSequense testMethod=test_self.assertEqual()>, 'Traceback (most recent call last):\\n  File \"/var/task/test_runner.py\", line 30, in test\\n    eval(theAssert)\\n  File \"<string>\", line 1, in <module>\\nTypeError: assertEqual() takes at least 3 arguments (1 given)\\n')",
+      "call": "self.assertEqual()",
+      "success": false
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "lambda-verifiers",
+  "version": "1.0.0",
+  "description": "Code verifiers designed to securely run on AWS lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Chris Boesch",
+  "license": "ISC"
+}
