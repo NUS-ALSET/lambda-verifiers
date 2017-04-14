@@ -1,0 +1,9 @@
+{
+  "allPassed": true,
+  "testResults": {
+    "1": {
+      "call": "self.assertEqual(2,2)",
+      "success": true
+    }
+  }
+}

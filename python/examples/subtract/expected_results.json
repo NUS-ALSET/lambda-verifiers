@@ -1,0 +1,9 @@
+{
+  "allPassed": true,
+  "testResults": {
+    "1": {
+      "call": "self.assertEqual(subtract(3,2),1)",
+      "success": true
+    }
+  }
+}

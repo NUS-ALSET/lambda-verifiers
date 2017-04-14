@@ -6,7 +6,7 @@
       "success": true
     },
     "2": {
-      "call": "self.assertEqual(sum(1,2),3)",
+      "call": "self.assertEqual(add(1,2),3)",
       "success": true
     },
     "3": {
